@@ -1,0 +1,65 @@
+* 
+	margin: 0px 
+	padding: 0 
+	font-family: 'Dosis', sans-serif 
+	box-sizing: border-box 
+	transition: all 0.3s ease-in-out
+
+$background-light: #f2f2f2
+$hover-light: grey
+$accent-color: #000000
+
+.nav-link 
+	font-size: 18px 
+.navbar-brand 
+	img 
+		opacity: 1 
+		&:hover 
+			opacity: 0.4 
+.cta 
+	img 
+		opacity: 1 
+		margin-top: 1px 
+		&:hover 
+			opacity: 0.4 
+
+%bloqueDescriptions {
+    margin-top: 20px 
+ 	font-size: 18px
+    text-align: center
+
+}
+.social 
+	display: inline 
+	margin: 0 
+	padding: 0 
+	opacity: 1 
+	img 
+		&:hover 
+			opacity: 0.4 
+
+input[type=text], select, textarea 
+	width: 100% 
+	padding: 12px 
+	border: 1px solid #ccc 
+	border-radius: 4px 
+	box-sizing: border-box 
+	margin-top: 6px 
+	margin-bottom: 8px 
+	resize: vertical 
+input[type=submit] 
+	background-color: #000 
+	color: white 
+	padding: 8px 20px 
+	border: none 
+	border-radius: 4px 
+	cursor: pointer 
+input[type=submit]:hover 
+	background-color: $hover-light
+
+footer {
+    font: size 24px 
+    @extend %bloqueDescriptions
+}
+
+	
