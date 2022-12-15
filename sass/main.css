@@ -6,6 +6,13 @@
   transition: all 0.3s ease-in-out;
 }
 
+.bolded { 
+  font-weight: bold; 
+}
+
+.emphasized { 
+  font-style: italic; 
+}
 .nav-link {
   font-size: 18px;
 }
@@ -22,6 +29,13 @@
   margin-top: 1px;
 }
 .cta img:hover {
+  opacity: 0.4;
+}
+
+.nuebo img {
+  opacity: 1;
+}
+.nuebo img:hover {
   opacity: 0.4;
 }
 
